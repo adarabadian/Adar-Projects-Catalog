@@ -16,7 +16,7 @@ app.get('*', (req, res) => {
 
 const wakeAllSites = () =>{
    const axios = require('axios').default;
-   axios.get("https://vacations.onrender.com.com/");
+   axios.get("https://vacations.onrender.com/");
    axios.get("https://adarmarket.onrender.com/");
    axios.get("https://gamerank.onrender.com/");
 }
